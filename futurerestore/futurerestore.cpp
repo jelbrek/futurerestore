@@ -675,8 +675,8 @@ void futurerestore::doRestore(const char *ipsw){
     else if (!(client->tss = nonceMatchesApTickets()))
         reterror("Device ApNonce does not match APTicket nonce\n");
 
-    plist_dict_remove_item(client->tss, "BBTicket");
-    plist_dict_remove_item(client->tss, "BasebandFirmware");
+    //plist_dict_remove_item(client->tss, "BBTicket");
+    //plist_dict_remove_item(client->tss, "BasebandFirmware");
 
     if (_enterPwnRecoveryRequested && _client->image4supported) {
         retassure(plist_dict_get_item(_client->tss, "generator"), "signing ticket file does not contain generator. But a generator is required for 64-bit pwnDFU restore");
