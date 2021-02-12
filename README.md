@@ -1,7 +1,7 @@
 # futurerestore
 _It is a hacked up idevicerestore wrapper, which allows manually specifying SEP and Baseband for restoring._
 
-Latest compiled version can be found [here](https://github.com/tihmstar/futurerestore/releases).
+Latest compiled version can be found [here](https://github.com/marijuanARM/futurerestore/releases).
 
 __Only use if you are sure what you're doing.__
 
